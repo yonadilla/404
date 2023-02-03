@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Space+Mono&display=swap');
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav p{
+    width: 133px;
+    height: 25px;
+    margin-left: 24px;
+    margin-top: 20px;
+    
+    color: #333333;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+img{
+    width: 268.83px;
+    height: 238px;
+    margin-top: 50px;
+    margin-left: 34px;
+}
+
+/* I have bad news for you */
+.main1 p{
+    position: absolute;
+width: 350px;
+height: 142px;
+left: 24px;
+top: 407px;
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+max-width: 100%;
+
+}
+
+.main2{
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+    gap: 30px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+
+    background-color: #333333;
+}
+
+footer{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 46px;
+    top: 908px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+}
+
+@media only screen and ( min-width: 1024px ) {
+ 
+    nav p {
+        margin-left : 77px;
+        margin-top : 40px;
+    }
+
+    img{
+        height: 447.4263916015625px;
+        width: 539.2236938476562px;
+        margin-left: 77px;
+        margin-top: 265px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+
+    .main1 p {
+        width: 586px;
+        height: 190px;
+        left: 735px;
+        top: 265px;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+
+    }
+
+    .main2{
+        height: 108px;
+        width: 381px;
+        left: 736px;
+        top: 527px;
+        padding-top: 20px;
+        border-radius: nullpx;
+        -webkit-border-radius: nullpx;
+        -moz-border-radius: nullpx;
+        -ms-border-radius: nullpx;
+        -o-border-radius: nullpx;
+
+}
+
+    button{
+        height: 68px;
+        width: 216px;
+        left: 740px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+
+    footer{
+        left: 577px;
+        top: 1039px;
+    }
+}
